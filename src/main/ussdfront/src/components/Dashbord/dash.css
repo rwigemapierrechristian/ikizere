@@ -1,0 +1,299 @@
+.dash-wraper{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    /* gap: 1rem; */
+}
+.sidebar-wraper{
+    padding: 1rem 2rem;
+    background: rgb(33, 28, 28);
+    height: 100vh;
+}
+.body-wraper{
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100vh;
+    overflow-y:scroll;
+}
+.header{
+    
+    background-color: #FFF9F4;
+    padding: 0.5rem 0;
+   
+}
+.header-container{
+display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin: 0 auto;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.img-container{
+    height: 40px;
+}
+.img-container img{
+    border-radius: 50%;
+    border: 1px solid blue;
+}
+.btn-container{
+    display: flex;
+    background-color: black;
+    border-radius: 1rem;
+    padding:0.1rem 0.1rem;
+}
+.card-wraper{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.5rem;
+    /* margin-left: 2rem; */
+}
+.cards{
+    /* padding: 0.5rem 1rem; */
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    flex-direction: column;
+    gap: 13px;
+    border-radius: 0.5rem;
+    background-color: bisque;
+}
+.cards:nth-child(4){
+    background-color: rgb(253, 198, 130);
+    width: 400px;
+}
+table{
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    min-width: 500px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+table thead tr{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+table th,table td{
+    padding: 12px 15px;
+}
+table tbody tr{
+    background-color: white;
+}
+
+table tbody tr:last-child{
+    border-bottom: 1px solid black;
+}
+
+.footer{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.footer-others
+{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 16rem;
+}
+.addModal{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.form-Container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0.5rem;
+}
+label{
+    font-family: monospace;
+    text-transform: capitalize;
+}
+.needs-validation{
+    position: relative;
+    /* margin-top: 3rem; */
+}
+.clox{
+    position: absolute;
+    width: 100px;
+   margin-top: -23rem;
+   margin-left: -5rem;
+   background-color: red;
+
+}
+.post{
+    margin-top: 3rem;
+}
+.logoo{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.m-2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.brand-name
+{
+    text-align: center;
+    font-weight: 600;
+}
+
+.icons
+{
+    font-size: 20px;
+    margin-right: 1rem;
+    margin-top: -6px;
+}
+
+.buttons
+{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.update
+{
+    font-weight: 500;
+    color: green;
+    cursor: pointer;
+}
+
+.delete
+{
+    font-weight: 500;
+    color: rgb(255, 48, 48);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.data{
+    text-align: center;
+}
+
+
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.Post, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.Post-content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 8000px;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    margin-bottom: 100px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+
+.table
+{
+    margin-left: -6rem;
+}
+
+.btn-primary{
+    margin-left: -6rem; 
+}
+caption
+{
+    margin-top: 2rem; 
+    margin-left: -6rem; 
+}
+
+.navbar-brand
+{
+    margin-left: -6rem;  
+}
+
+.payed
+{
+    color: rgb(2, 152, 2);
+    font-weight: 600;
+}
+
+.pending
+{
+    color: rgb(213, 228, 0);
+    font-weight: 600;
+}
+
+.overdue
+{
+    color: rgb(255, 60, 60);
+    font-weight: 600;
+}
+
+.total-title
+{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+.total-num
+{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}

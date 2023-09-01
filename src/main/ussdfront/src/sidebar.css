@@ -1,0 +1,11 @@
+#sidebar
+{
+    background-color: bisque;
+    /* position: fixed; */
+}
+
+.list-group a:hover{
+background-color: rgb(234, 215, 202);
+color: white;
+cursor: pointer;
+}

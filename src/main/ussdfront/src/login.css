@@ -1,0 +1,25 @@
+.wrapper
+{
+    height: 100vh;
+}
+
+.login{
+    width: 300px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    background-color: #f7ece4;
+}
+
+.button
+{
+    background-color: coral;
+    color: white;
+}
+
+.param{
+    justify-content: center;
+    margin-left: 60px;
+    padding: 10px;
+}
